@@ -1,3 +1,3 @@
-import { RoundedButtonStyled } from "./RoudedButton.style";
+import { RoundedButtonStyled } from "./RoundedButton.style";
 
 export default RoundedButtonStyled;
