@@ -19,6 +19,7 @@ const Presentation = () => {
         : "/img/home/janitor.png";
     setCleanerPicture(newCleanerPicture);
   }, []);
+
   return (
     <SectionContainer>
       <ContainerStyled>
@@ -37,6 +38,7 @@ const Presentation = () => {
         >
           Encontrar um(a) diarista
         </SectionButton>
+
         <SectionPictureContainer>
           <img src={cleanerPicture} />
         </SectionPictureContainer>

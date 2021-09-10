@@ -40,7 +40,6 @@ export const ContainerStyled = styled(Container)`
     gap: ${({ theme }) => theme.spacing(4)};
     align-items: center;
     align-content: center;
-    justify-content: center;
     justify-content: space-between;
     justify-items: center;
     min-height: 450px;
@@ -53,7 +52,7 @@ export const SectionTitle = styled("h1")`
   margin: 0;
 
   em {
-    font: inherit;
+    font-style: inherit;
   }
 
   .twf-search {
@@ -129,7 +128,6 @@ export const SectionPictureContainer = styled("div")`
     width: 130px;
     height: 130px;
     background-color: ${({ theme }) => theme.palette.primary.main};
-
     z-index: 2;
   }
 
@@ -148,9 +146,9 @@ export const SectionPictureContainer = styled("div")`
 
 export const BottomButton = styled("span")`
   position: absolute;
-  bottom: 0%;
+  bottom: 0;
   left: 50%;
-  transform: translateX(-50%, 50%);
+  transform: translate(-50%, 50%);
   background-color: ${({ theme }) => theme.palette.secondary.main};
   padding: 11px 12px;
   border-radius: 50px;
